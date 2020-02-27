@@ -97,10 +97,8 @@ public class OrientationParameters {
 	public boolean				hsb						= true;
 	public boolean				view[]					= new boolean[NB_FEATURES];
 
-	final static public String	name[]					= { 
-			"Gradient-X", "Gradient-Y", "Energy", "Orientation",
-			"Coherency", "Harris-index", "Color-survey", "Binary Mask", "Orientation Mask", 
-			"Histogram", "Table"};
+	final static public String name[] = { "Gradient-X", "Gradient-Y", "Energy", "Orientation", "Coherency",
+			"Harris-index", "Color-survey", "Binary-Mask", "Orientation-Mask", "Histogram", "Table" };
 
 	// Parameters for the measurement tools
 	public int					colorEllipseR			= 255;
